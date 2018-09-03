@@ -1,0 +1,11 @@
+<section id="pricing" class="secondary-color text-center scrollto clearfix ">
+    <div *ngIf="post" class="row clearfix">
+
+
+        <div class="post-block col-1 wow fadeInUp" data-wow-delay="0.4s">
+          <app-post [post]="post"></app-post>
+        </div>
+
+    </div>
+    <button (click)="getBack()" class="button">Go back</button>
+</section>

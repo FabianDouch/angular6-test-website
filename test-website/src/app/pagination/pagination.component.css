@@ -1,0 +1,31 @@
+.pagination> li {
+  display: inline-block;
+  background-color: #fff;
+  list-style: none;
+  border: 1px black solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.pagination> li:hover {
+  background-color: #999;
+  cursor: pointer;
+}
+
+.pagination> li:active {
+  background-color: #999;
+  cursor: grabbing;
+}
+
+.pagination> li.active {
+  background-color: #333;
+}
+.pagination> li.disabled {
+  background-color: red;
+  cursor: default;
+}
+
+.pagination {
+  margin-top: -100px;
+}
